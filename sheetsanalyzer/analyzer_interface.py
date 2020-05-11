@@ -283,7 +283,8 @@ class sheetsanalyzer(QMainWindow):
             self.analyzer.finished.connect(self.onFinished)
             self.analyzer.start()
         else:
-            print("No files...")
+            QMessageBox.warning(self, "Error",
+                                "No files could be found with the settings made.", QMessageBox.Ok)
 
     def reset_ui(self):
         self._is_resetet = True
