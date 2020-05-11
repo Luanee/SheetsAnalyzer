@@ -33,7 +33,7 @@ class sheetsanalyzer(QMainWindow):
         self.create_toolbar()
         self.create_statusbar()
 
-        folder_head = QLabel("Folderpath")
+        folder_head = QLabel("Path")
         folder_head.setMaximumWidth(80)
         self.linee_folder = QLineEdit()
         self.linee_folder.editingFinished.connect(self.set_input_folderpath)
