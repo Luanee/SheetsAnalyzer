@@ -1,13 +1,10 @@
 #! /usr/bin/python3.7
 
-# # TODO: change __url__
-# # TODO: change __description__
-
 __author__ = "Pit Nahrstedt"
-__author_email = 'evereux@gmail.com'
-__description__ = ""'A python module to access the CATIA Measurable object.'
+__author_email = 'Luanee@web.de'
+__description__ = "A application to extract cells from an enormous number of files"
 __name__ = "sheetsanalyzer"
 __version__ = "0.0.1"
-__url__ = "https://github.com/evereux/pycatia"
+__url__ = "https://github.com/Luanee/SheetsAnalyzer"
 
 name = __name__
